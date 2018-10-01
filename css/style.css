@@ -32,7 +32,7 @@ body {
 
 .box {
   width: 50%;
-  height: 75%;
+  height: 50%;
   background-color: gray;
   color: white;
   display: inline-block;
@@ -40,14 +40,135 @@ body {
   position: relative;
 }
 
-.box-content {
-  font-size: 30px;
-}
 
 .box-1 {
-  background-color: #333;
+  background: url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAI0lEQVQYV2Psau76X1ZbxsjAwMAAYoMZMA5IAi4DU8WIrgUAydYVMdMoNVIAAAAASUVORK5CYII=) repeat;
+  width: 50%;
+  height: 75%;
 }
 
 .box-2 {
-  background-color: #777;
+  background-color: hsl(186, 20%, 62%);
+  width: 50%;
+  height: 25%;
 }
+
+.box-entertainment {
+  position: relative;
+  width: 35%;
+  height: 33.3%;
+  background: hsl(291, 53%, 62%);
+}
+
+.box-sm {
+  position: absolute;
+  top: 33.3%;
+  left: 50%;
+  height: 33.3%;
+  background:hsl(0, 88%, 51%);
+}
+
+.box-canvas {
+  position: absolute;
+  top: 66.6%;
+  left: 50%;
+  width: 25%;
+  height: 33.3%;
+  background-color: hsl(58, 100%, 62%);
+}
+
+.box-messaging {
+  position: absolute;
+  top: 66.6%;
+  left: 75%;
+  width: 25%;
+  height: 33.3%;
+  background-color: hsl(238, 30%, 67%);
+  font-size: 20px;
+}
+
+.box-etwords {
+  position: absolute;
+  top: 0%;
+  left: 85%;
+  width: 15%;
+  height: 33.3%;
+  background-color:hsl(291, 53%, 62%);
+  font-size: 20px;
+}
+
+
+
+BOX CONTENTS
+
+.box-content {
+  font-size: 30px;
+  background-color: blue;
+
+}
+
+.box-contentsm {
+  font-size: 30px;
+  background-color: hsl(38, 100%, 61%);
+  text-align: center;
+  font-family: 'K2D', sans-serif;
+
+}
+
+.box-contentsp {
+  font-size: 25px;
+  background-color: hsl(291, 53%, 62%);
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+.box-contentmes {
+  font-size: 25px;
+  background-color: hsl(238, 78%, 67%);
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+.box-content2 {
+  font-size: 30px;
+  background-color: hsl(186, 20%, 40%);
+  text-align: center;
+  font-family: 'K2D', sans-serif;
+
+}
+
+.box-contentgs {
+  font-size: 30px;
+  background-color: gray;
+  text-align: center;
+  font-family: 'K2D', sans-serif;
+
+}
+
+.corporate {
+  background-color: black;
+  font-size: 20px;
+}
+
+.box-contentmu {
+  background-color: hsl(111, 53%, 62%);
+  text-align: center;
+  font-size:25px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
