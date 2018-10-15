@@ -101,12 +101,6 @@ body {
 
 BOX CONTENTS
 
-.box-content {
-  font-size: 30px;
-  background-color: blue;
-
-}
-
 .box-contentsm {
   font-size: 20px;
   text-align: center;
@@ -114,8 +108,10 @@ BOX CONTENTS
 
 }
 
+
+
 .box-contentsp {
-  font-size: 25px;
+  font-size: 16px;
   background-color:hsl(313, 50%, 27%);
   text-align: center;
   font-family: 'Work Sans', sans-serif;
@@ -123,7 +119,7 @@ BOX CONTENTS
 }
 
 .box-contentmes {
-  font-size: 25px;
+  font-size: 16px;
   background-color: hsl(238, 78%, 67%);
   text-align: center;
   font-family: 'Work Sans', sans-serif;
@@ -154,9 +150,131 @@ BOX CONTENTS
 .box-contentmu {
   background-color: hsl(313, 50%, 27%);
   text-align: center;
-  font-size:20px;
+  font-size:16px;
   font-family: 'Work Sans', sans-serif;
 }
+
+.computer. img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 0px) {
+
+* {
+  overflow: scroll;
+}
+
+  img {
+    width: 100%;
+    height: auto;
+}
+ 
+.box-contentgs {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-fit: contain;
+}
+
+
+.box-1 {
+  width: 100%;
+  position: relative;
+}
+
+.corporate {
+  font-size:16px;
+  line-height: 1.6px
+  background-color: black;
+}
+
+.box-contentgs {
+  font-size:18px;
+  line-height: 1.6px
+  background-color: gray;
+  text-align: center;
+}
+
+.box-2 {
+  width:100%;
+}
+
+.box-content2 {
+  font-size:18px;
+}
+
+.box-entertainment {
+  width:75%;
+  height: 33.3%;
+  background: hsl(291, 53%, 62%);
+  position: absolute;
+  top:100%;
+  left:0%;
+}
+
+.box-etwords {
+  width:25%;
+  position: absolute;
+  top: 100%;
+  left: 75%;
+  background-color:hsl(291, 53%, 62%);
+  font-size: 11px;
+}
+
+
+.box-contentmu {
+  font-size:18px;
+  
+}
+
+.box-contentsm {
+  font-size:18px;
+  text-align: center;
+  font-family: 'K2D', sans-serif;
+
+
+}
+
+.box-sm {
+  position: absolute;
+  width:100%;
+  top:133.3%;
+  left:0%;
+}
+
+.box-canvas{
+  position: absolute;
+  width:50%;
+  top:166.6vh;
+  left:0%;
+}
+
+.box-contentsp {
+  font-size:15px;
+}
+
+.box-messaging {
+  position: absolute;
+  width:50%;
+  top:166.6vh;
+  left:50%;
+}
+
+.box-contentmes {
+  font-size: 14px;
+}
+
+.box-contentmu {
+  font-size:14px;
+}
+}
+
 
 
 
